@@ -1,0 +1,111 @@
+.menu{
+    background-color: rgb(79, 9, 112);
+    width:150px;
+    position: fixed;
+    top: 0;
+    height: 100%;
+}
+.menu a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+.menu a:hover{
+    background-color: white;
+    color: rgb(79, 9, 112);
+}
+.menu h3{
+    color: white;
+}
+body{
+    margin:0;
+}
+.main{
+    margin:80px 40px 0px 360px;
+}
+.images img{
+    width: 45%;
+    margin:7px;
+    border-radius:12px;
+    opacity: 0.7;
+}
+.team img{
+    width:100%;
+    border-radius:20px;
+}
+.team {
+    width:25%;
+    display: inline-block;
+    text-align:left;
+    background-color: rgb(224, 223, 221);
+    padding: 7px;
+    margin: 0 20px;
+}
+hr{
+    width:99%;
+    border: 3px solid rgb(79, 9, 112);
+    border-radius:12px;
+}
+h3{
+    color: rgb(79, 9, 112);
+    font-size:40px;
+}
+.tarif{
+    
+    display: inline-block;
+    width:45%;
+    text-align: center;
+    
+    margin: 10px;
+
+}
+.tarif ul{
+    list-style-type: none;
+    padding:2px;
+    background-color: rgb(199, 199, 199);
+    border-radius:12px;
+}
+.tarif li{
+    border-bottom:2px solid rgb(122, 122, 122);
+    padding: 12px 0;
+    border-radius:10px;
+}
+.tarif a{
+    text-decoration: none;
+    background-color: rgb(255, 236, 236);
+    padding:8px 12px;
+}
+.tarif a:hover{
+    background-color: rgb(110, 108, 108);
+}
+#basic{
+    background-color:rgb(79, 9, 112); 
+    color: white;
+    font-size:30px;
+    padding:24px 0;
+}
+#pro{
+    background-color: rgb(243, 92, 81);
+    color: white;
+    font-size:30px;
+    padding:24px 0;
+}
+.contact input{
+    width: 95%;
+    display: block ;
+    padding: 4px;
+}
+.contact button{
+    width: 95%;
+    background-color: rgb(79, 9, 112); 
+    padding:5px 12px;
+    margin:10px 0;
+    border-radius: 8px;
+    color: white;
+    border:none;
+    
+}
+
+
+    
